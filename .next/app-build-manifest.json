@@ -1,0 +1,86 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/_not-found/page-9e36a15cd19d3b3e.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/css/94bf31dcebf76af9.css",
+      "static/chunks/955-f2b38dc3ed131e4b.js",
+      "static/chunks/130-27a291c25b9f2262.js",
+      "static/chunks/app/layout-7dba0d5452c28559.js"
+    ],
+    "/(pages)/defense-blog/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/(pages)/defense-blog/page-3c91c4ea294078eb.js"
+    ],
+    "/(pages)/contact/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/955-f2b38dc3ed131e4b.js",
+      "static/chunks/app/(pages)/contact/page-908c4338e62a5348.js"
+    ],
+    "/(pages)/about/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/(pages)/about/page-ffa11a84e32701ca.js"
+    ],
+    "/(pages)/ironman-journal/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/955-f2b38dc3ed131e4b.js",
+      "static/chunks/app/(pages)/ironman-journal/page-a030c716db3ddd15.js"
+    ],
+    "/(pages)/projects/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/(pages)/projects/page-ab86a2f947085bdc.js"
+    ],
+    "/(pages)/skills/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/(pages)/skills/page-610361582354b4b7.js"
+    ],
+    "/(pages)/spiritual-blog/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/(pages)/spiritual-blog/page-f19503aead9cf867.js"
+    ],
+    "/(pages)/tech-blog/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/(pages)/tech-blog/page-ba143814d59f32ba.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-365fe83a4310541d.js",
+      "static/chunks/fd9d1056-1a6cec4e37df8ae8.js",
+      "static/chunks/23-71d5606e33121176.js",
+      "static/chunks/main-app-8db1b47db1215479.js",
+      "static/chunks/app/page-dac79e13cf49394a.js"
+    ]
+  }
+}

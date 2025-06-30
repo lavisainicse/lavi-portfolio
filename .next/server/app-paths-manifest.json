@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/(pages)/defense-blog/page": "app/(pages)/defense-blog/page.js",
+  "/(pages)/contact/page": "app/(pages)/contact/page.js",
+  "/(pages)/about/page": "app/(pages)/about/page.js",
+  "/(pages)/ironman-journal/page": "app/(pages)/ironman-journal/page.js",
+  "/(pages)/projects/page": "app/(pages)/projects/page.js",
+  "/(pages)/skills/page": "app/(pages)/skills/page.js",
+  "/(pages)/spiritual-blog/page": "app/(pages)/spiritual-blog/page.js",
+  "/(pages)/tech-blog/page": "app/(pages)/tech-blog/page.js",
+  "/page": "app/page.js"
+}
