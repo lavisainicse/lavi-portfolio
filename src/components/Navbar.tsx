@@ -1,45 +1,57 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { motion } from "framer-motion";
 
 const navLinks = [
-  { href: "/about", label: "About" },
-  { href: "/skills", label: "Skills" },
-  { href: "/projects", label: "Projects" },
-  { href: "/ironman-journal", label: "Ironman Journal" },
-  { href: "/spiritual-blog", label: "Spiritual Blog" },
-  { href: "/tech-blog", label: "Tech Blog" },
-  { href: "/defense-blog", label: "Defense Blog" },
   { href: "/contact", label: "Contact" },
+  { href: "/media", label: "Media" },
+  { href: "/projects", label: "Projects" },
+  { href: "/resume", label: "Resume" },
+  { href: "/resources", label: "Resources" },
+  { href: "/internships", label: "Internships" },
 ];
 
 const Navbar = () => {
-  const pathname = usePathname();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-gray-900 bg-opacity-50 backdrop-blur-md">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-white bg-opacity-80 backdrop-blur-md shadow">
       <div className="container mx-auto flex items-center justify-between px-4 py-3">
-        <Link href="/" className="text-2xl font-bold text-white">
-          Lavi
+        <Link href="/" className="text-2xl font-bold text-gray-900">
+          Lavi Saini
         </Link>
-        <ul className="hidden md:flex items-center space-x-6">
+        <ul className="hidden md:flex items-center space-x-8">
           {navLinks.map(({ href, label }) => (
             <li key={href}>
-              <Link href={href} className="relative text-white hover:text-gray-300">
+              <Link href={href} className="text-gray-900 hover:text-gray-600 font-medium">
                 {label}
-                {pathname === href && (
-                  <motion.div
-                    className="absolute bottom-[-4px] left-0 h-0.5 w-full bg-white"
-                    layoutId="underline"
-                  />
-                )}
               </Link>
             </li>
           ))}
         </ul>
+        {/* Hamburger for mobile */}
+        <button
+          className="md:hidden flex flex-col justify-center items-center w-8 h-8"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span className="block w-6 h-0.5 bg-gray-900 mb-1"></span>
+          <span className="block w-6 h-0.5 bg-gray-900 mb-1"></span>
+          <span className="block w-6 h-0.5 bg-gray-900"></span>
+        </button>
+        {/* Mobile menu */}
+        {menuOpen && (
+          <ul className="absolute top-16 right-4 bg-white shadow-lg rounded-lg p-4 flex flex-col space-y-4 md:hidden">
+            {navLinks.map(({ href, label }) => (
+              <li key={href}>
+                <Link href={href} className="text-gray-900 hover:text-gray-600 font-medium" onClick={() => setMenuOpen(false)}>
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </nav>
   );
